@@ -1,0 +1,103 @@
+{
+  "name": "N. Tanish",
+  "contact": {
+    "email": "Tanish8012@gmail.com",
+    "phone": "+91 8817068898",
+    "location": "Chennai, Tamil Nadu, India"
+  },
+  "career_objective": "Aspiring Software Engineer pursuing a B.Tech in Computer Science Engineering (AI & ML) at Vel Tech University, seeking to apply strong foundations in Java, Python, JavaScript, REST APIs, and SQL toward full-stack and Generative & Agentic AI (Google Gemini, Google ADK, OpenRouter) roles.",
+  "education": [
+    {
+      "degree": "B.Tech, Computer Science Engineering (AI & ML)",
+      "institution": "Vel Tech University, Chennai, India",
+      "duration": "2023 - Present",
+      "cgpa": null
+    },
+    {
+      "degree": "Higher Secondary (Class XII)",
+      "institution": "Sri Chaitanya, Visakhapatnam, India",
+      "duration": "2022 - 2023",
+      "cgpa": null
+    },
+    {
+      "degree": "Secondary School (Class X)",
+      "institution": "Vijayam, Visakhapatnam, India",
+      "duration": "2020 - 2021",
+      "cgpa": null
+    }
+  ],
+  "skills": {
+    "programming_languages": ["Java", "Python", "JavaScript", "SQL", "PHP"],
+    "web_development": ["HTML5", "CSS3", "Bootstrap 5", "Tailwind CSS", "PHP 8", "MVC"],
+    "backend_and_databases": ["MySQL 8.0", "SQL Optimization", "REST API", "MySQL Workbench"],
+    "ai_and_ml": ["NumPy", "Pandas", "Scikit-learn", "NLTK", "TF-IDF", "Matplotlib", "Gemini API", "Prompt Engineering", "Agentic AI"],
+    "tools_and_ides": ["Git", "GitHub", "VS Code", "XAMPP", "Agile/Scrum"],
+    "core_cs_concepts": ["Data Structures & Algorithms", "OOP", "DBMS", "Operating Systems", "Computer Networks"]
+  },
+  "projects": [
+    {
+      "name": "PhishHunter AI",
+      "tagline": "AI-Powered Phishing Detection",
+      "skills_used": ["Python", "Flask", "JavaScript", "HTML", "CSS", "Bootstrap", "Scikit-learn", "NLP", "REST API", "Git", "GitHub", "Render", "Chrome Extension (Manifest V3)"],
+      "description": [
+        "Developed an AI-powered Chrome Extension to analyze URLs, emails, and SMS messages for phishing detection using Machine Learning, NLP, and heuristic analysis.",
+        "Built a Flask REST API and deployed it on Render to provide cloud-hosted, real-time phishing detection services.",
+        "Integrated domain reputation analysis, redirect detection, suspicious keyword identification, and intelligent threat scoring.",
+        "Designed a responsive browser extension interface that provides risk scores, threat indicators, and actionable recommendations.",
+        "Improved practical experience in REST API development, browser extension architecture, cloud deployment, and AI-powered content analysis."
+      ],
+      "link": "https://github.com/vtu27125-Tanish/PhishHunter-AI"
+    },
+    {
+      "name": "CivicVoice",
+      "tagline": "AI-Powered Civic Issue Reporting Platform",
+      "skills_used": ["React (Vite)", "Node.js", "Express.js", "Python", "FastAPI", "MySQL (Aiven)", "JWT Auth", "Vercel", "Render"],
+      "description": [
+        "Built a full-stack platform enabling citizens to report civic infrastructure issues with geolocation tagging, and giving administrators a dashboard to track and resolve them.",
+        "Designed a Python/FastAPI microservice for AI-driven urgency scoring and automated duplicate report detection, integrated with the Node.js backend via REST APIs.",
+        "Implemented hotspot clustering (DBSCAN) to identify recurring problem zones, JWT-based authentication with OTP email verification, and role-based access control for citizens, officials, and admins.",
+        "Deployed the full distributed system to production - frontend on Vercel, backend and ML microservice on Render, and MySQL database on Aiven Cloud."
+      ],
+      "link": "https://github.com/vtu27125-Tanish/civicvoice",
+      "live_demo": "https://civicvoice-xi.vercel.app/"
+    },
+    {
+      "name": "Axis",
+      "tagline": "Voice-Driven AI Browser Agent",
+      "skills_used": ["Google ADK", "Gemini", "FastAPI", "WebSockets", "MySQL", "Chrome Extension (Manifest V3)", "Docker", "Render"],
+      "description": [
+        "Built a Manifest V3 Chrome extension that lets users control the browser by voice, combining live DOM analysis and screenshots to plan and execute real actions.",
+        "Architected a full-stack agent system streaming voice, DOM, and screenshot data over WebSockets to a FastAPI backend orchestrating a Google ADK agent powered by Gemini.",
+        "Implemented multi-tool agent planning so the agent reasons over available tools (DOM actions, browser control, WebMCP, screenshots, image generation) to execute multi-step tasks."
+      ],
+      "link": "https://github.com/vtu27125-Tanish/Axis-Chrome-Agent"
+    }
+  ],
+  "experience": [],
+  "achievements": [],
+  "certifications": [
+    {
+      "name": "Introduction to Modern AI",
+      "issuer": "Cisco Networking Academy"
+    },
+    {
+      "name": "Certificate of Completion: Claude Code 101",
+      "issuer": "Anthropic"
+    },
+    {
+      "name": "Mastering AWS Certified AI Practitioner (AIF-C01)",
+      "issuer": "Udemy",
+      "verify_link": "https://verify.skilljar.com/c/eppcpiwis7ni"
+    },
+    {
+      "name": "Deloitte Australia - Data Analytics Job Simulation",
+      "issuer": "Forage",
+      "verify_link": "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_BCQJi4iFKTw5KBT5P_1783078579543_completion_certificate.pdf"
+    }
+  ],
+  "languages": ["English", "Hindi", "Telugu"],
+  "social_links": {
+    "linkedin": "https://www.linkedin.com/in/n-tanish-853701273/",
+    "github": "http://github.com/vtu27125-Tanish"
+  }
+}

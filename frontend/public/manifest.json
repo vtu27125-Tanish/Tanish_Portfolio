@@ -1,0 +1,18 @@
+{
+  "short_name": "Tanish Console",
+  "name": "N. Tanish — Candidate Console & AI Representative",
+  "description": "Interactive AI portfolio and candidate representative grounded in candidate profile.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "64x64 128x128 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0d0914",
+  "theme_color": "#0d0914",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}
