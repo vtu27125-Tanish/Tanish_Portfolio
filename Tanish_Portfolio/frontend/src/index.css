@@ -1,0 +1,118 @@
+:root {
+  /* Unified Combination: Rose Quartz (#FFB7C5 | #C5A3FF) + Emerald Depths (#1B4332 | #004D40) */
+  --rose-1: #FFB7C5;
+  --rose-2: #C5A3FF;
+  --emerald-1: #1B4332;
+  --emerald-2: #004D40;
+  --emerald-bright: #42d19b;
+  --emerald-teal: #2EC4B6;
+
+  /* Signature Combined Gradients */
+  --gradient-combined: linear-gradient(135deg, #FFB7C5 0%, #C5A3FF 45%, #004D40 100%);
+  --gradient-rose: linear-gradient(135deg, #FFB7C5 0%, #C5A3FF 100%);
+  --gradient-emerald: linear-gradient(135deg, #1B4332 0%, #004D40 100%);
+
+  /* Backgrounds: Emerald Depths ground infused with Rose Quartz ambient lighting */
+  --bg: #091a14;
+  --surface: #102720;
+  --surface-raised: #18382d;
+  --border: rgba(255, 183, 197, 0.28);
+  --border-soft: rgba(197, 163, 255, 0.16);
+
+  /* Typography & Signals */
+  --text-primary: #f6eeeb;
+  --text-muted: #c4b5d4;
+  --text-dim: #847596;
+
+  --signal: #FFB7C5;        /* Rose Quartz primary signal */
+  --signal-dim: rgba(255, 183, 197, 0.2);
+  --accent: #C5A3FF;        /* Lavender Quartz accent */
+  --accent-dim: rgba(197, 163, 255, 0.2);
+  --live: #42d19b;          /* Bright Emerald online state */
+  --live-dim: rgba(66, 209, 155, 0.2);
+  --error: #ff6b6b;
+
+  --glow-color: rgba(255, 183, 197, 0.2);
+
+  /* Spacing / shape */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --tracking-label: 0.14em;
+
+  /* Type */
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 183, 197, 0.25), transparent 45%),
+    radial-gradient(circle at 88% 22%, rgba(197, 163, 255, 0.25), transparent 45%),
+    radial-gradient(circle at 50% 65%, rgba(27, 67, 50, 0.45), transparent 60%),
+    radial-gradient(circle at 85% 90%, rgba(0, 77, 64, 0.55), transparent 50%),
+    var(--bg);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100vh;
+}
+
+::selection {
+  background: var(--signal-dim);
+  color: var(--text-primary);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-dim);
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+textarea:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--live);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
