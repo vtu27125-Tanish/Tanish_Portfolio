@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4ecd6"/>
+      <stop offset="50%" stop-color="#c9b382"/>
+      <stop offset="100%" stop-color="#9a814d"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1f1629"/>
+      <stop offset="100%" stop-color="#0c0712"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <rect width="60" height="60" x="2" y="2" rx="14" fill="none" stroke="url(#grad)" stroke-width="1.5" stroke-opacity="0.4"/>
+  <!-- Stylized T with neural dots -->
+  <path d="M 18 20 H 46 M 32 20 V 46" stroke="url(#grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="18" cy="20" r="3.5" fill="#f4ecd6"/>
+  <circle cx="46" cy="20" r="3.5" fill="#f4ecd6"/>
+  <circle cx="32" cy="46" r="3.5" fill="#f4ecd6"/>
+  <circle cx="32" cy="33" r="2.5" fill="#c9b382"/>
+</svg>
