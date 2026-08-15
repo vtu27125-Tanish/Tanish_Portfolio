@@ -16,8 +16,7 @@ doesn't know something, it says so.
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](#license)
 
-**Live demo:** _[add your deployed Vercel link here]_ · **Backend API:** _[add your deployed Render/Koyeb link here]_
-
+**Live demo:** [tanish-portfolio-beta.vercel.app](https://tanish-portfolio-beta.vercel.app) · **Backend API:** [tanish-portfolio-chfy.onrender.com](https://tanish-portfolio-chfy.onrender.com)
 </div>
 
 ---
