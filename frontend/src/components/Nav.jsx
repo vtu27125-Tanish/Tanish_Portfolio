@@ -48,9 +48,7 @@ export default function Nav({ name }) {
         >
           Projects
         </button>
-        <button className="nav-cta" onClick={() => scrollTo('chat')}>
-          Talk to My Assistant
-        </button>
+
       </div>
     </nav>
   )

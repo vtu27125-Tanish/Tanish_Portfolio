@@ -95,7 +95,19 @@ export default function App() {
           chatMode
         )
       } catch (err) {
-        setError('Connection interrupted. Please verify backend API status and try again.')
+        setError(err.message || 'Connection interrupted. Please verify backend API status and try again.')
+        setMessages((prev) => {
+          const copy = [...prev]
+          const last = copy[copy.length - 1]
+          if (last.role === 'assistant' && !last.content) {
+            // Remove the empty assistant message if no chunks were received
+            return copy.slice(0, -1)
+          } else if (last.role === 'assistant') {
+            // Append error to whatever was streamed so far
+            last.content += '\n\n[Connection interrupted]'
+          }
+          return copy
+        })
       } finally {
         setIsStreaming(false)
       }
